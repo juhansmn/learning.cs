@@ -1,0 +1,10 @@
+D:\!Ostok\senac\POO\TesteForms\TesteForms\obj\Debug\TesteForms.csprojAssemblyReference.cache
+D:\!Ostok\senac\POO\TesteForms\TesteForms\obj\Debug\TesteForms.Properties.Resources.resources
+D:\!Ostok\senac\POO\TesteForms\TesteForms\obj\Debug\TesteForms.csproj.GenerateResource.cache
+D:\!Ostok\senac\POO\TesteForms\TesteForms\obj\Debug\TesteForms.csproj.CoreCompileInputs.cache
+D:\!Ostok\senac\POO\TesteForms\TesteForms\bin\Debug\TesteForms.exe.config
+D:\!Ostok\senac\POO\TesteForms\TesteForms\bin\Debug\TesteForms.exe
+D:\!Ostok\senac\POO\TesteForms\TesteForms\bin\Debug\TesteForms.pdb
+D:\!Ostok\senac\POO\TesteForms\TesteForms\obj\Debug\TesteForms.exe
+D:\!Ostok\senac\POO\TesteForms\TesteForms\obj\Debug\TesteForms.pdb
+D:\!Ostok\senac\POO\TesteForms\TesteForms\obj\Debug\TesteForms.Form.resources
