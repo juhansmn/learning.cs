@@ -12,45 +12,54 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        Humano homem;
-        Humano mulher;
+        Conta homem;
+        Conta mulher;
         public Form1()
         {
             InitializeComponent();
-            homem = new Humano();
-            mulher = new Humano();
+            homem = new Conta();
+            mulher = new Conta();
 
         }
 
         private void btnDebitar_Click(object sender, EventArgs e)
         {
             double valor = Convert.ToDouble(txtValor.Text);
-            if (rbnHomem.Checked)
+            if (rbnHomem.Checked) {
                 homem.Debitar(valor);
-            else
+                txtHistórico.AppendText("Homem recebeu R$ " + valor.ToString() + "\n");
+            }
+            else{
                 mulher.Debitar(valor);
+                txtHistórico.AppendText("Mulher recebeu R$ " + valor.ToString() + "\n");
+            }
         }
 
         private void btnCreditar_Click(object sender, EventArgs e)
         {
             double valor = Convert.ToDouble(txtValor.Text);
-            if (rbnHomem.Checked)
+
+            if (rbnHomem.Checked){
                 homem.Creditar(valor);
-            else
+                txtHistórico.AppendText("Homem gastou R$ " + valor.ToString() + "\n");
+            }
+            else {
                 mulher.Creditar(valor);
+                txtHistórico.AppendText("Mulher gastou R$ " + valor.ToString() + "\n");
+            }
         }
 
         private void btnVerSaldo_Click(object sender, EventArgs e)
         {
             if (rbnHomem.Checked)
-                lblSaldo.Text = homem.VerSaldo().ToString();
+                lblSaldo.Text = "R$ " + homem.VerSaldo().ToString();
             else
-                lblSaldo.Text = mulher.VerSaldo().ToString();
+                lblSaldo.Text = "R$ " + mulher.VerSaldo().ToString();
         }
 
         private void btnVerSaldoFamiliar_Click(object sender, EventArgs e)
         {
-            lblSaldoFamiliar.Text = (homem.VerSaldo() + mulher.VerSaldo()).ToString();
+            lblSaldoFamiliar.Text = "R$ " + (homem.VerSaldo() + mulher.VerSaldo()).ToString();
         }
     }
 }

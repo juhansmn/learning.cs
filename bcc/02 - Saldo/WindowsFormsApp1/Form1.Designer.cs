@@ -37,12 +37,13 @@
             this.lblSaldo = new System.Windows.Forms.Label();
             this.lblSaldoFamiliar = new System.Windows.Forms.Label();
             this.btnVerSaldoFamiliar = new System.Windows.Forms.Button();
+            this.txtHistórico = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // rbnMulher
             // 
             this.rbnMulher.AutoSize = true;
-            this.rbnMulher.Location = new System.Drawing.Point(318, 39);
+            this.rbnMulher.Location = new System.Drawing.Point(271, 39);
             this.rbnMulher.Name = "rbnMulher";
             this.rbnMulher.Size = new System.Drawing.Size(57, 17);
             this.rbnMulher.TabIndex = 0;
@@ -53,7 +54,7 @@
             // rbnHomem
             // 
             this.rbnHomem.AutoSize = true;
-            this.rbnHomem.Location = new System.Drawing.Point(107, 39);
+            this.rbnHomem.Location = new System.Drawing.Point(140, 39);
             this.rbnHomem.Name = "rbnHomem";
             this.rbnHomem.Size = new System.Drawing.Size(61, 17);
             this.rbnHomem.TabIndex = 1;
@@ -93,33 +94,33 @@
             // 
             // txtValor
             // 
-            this.txtValor.Location = new System.Drawing.Point(318, 116);
+            this.txtValor.Location = new System.Drawing.Point(271, 118);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(100, 20);
             this.txtValor.TabIndex = 5;
-            this.txtValor.Text = "R$ 0,00";
+            this.txtValor.Text = "0,00";
             // 
             // lblSaldo
             // 
             this.lblSaldo.AutoSize = true;
             this.lblSaldo.Location = new System.Drawing.Point(268, 197);
             this.lblSaldo.Name = "lblSaldo";
-            this.lblSaldo.Size = new System.Drawing.Size(45, 13);
+            this.lblSaldo.Size = new System.Drawing.Size(28, 13);
             this.lblSaldo.TabIndex = 6;
-            this.lblSaldo.Text = "R$ 0,00";
+            this.lblSaldo.Text = "0,00";
             // 
             // lblSaldoFamiliar
             // 
             this.lblSaldoFamiliar.AutoSize = true;
-            this.lblSaldoFamiliar.Location = new System.Drawing.Point(271, 352);
+            this.lblSaldoFamiliar.Location = new System.Drawing.Point(268, 246);
             this.lblSaldoFamiliar.Name = "lblSaldoFamiliar";
-            this.lblSaldoFamiliar.Size = new System.Drawing.Size(45, 13);
+            this.lblSaldoFamiliar.Size = new System.Drawing.Size(28, 13);
             this.lblSaldoFamiliar.TabIndex = 7;
-            this.lblSaldoFamiliar.Text = "R$ 0,00";
+            this.lblSaldoFamiliar.Text = "0,00";
             // 
             // btnVerSaldoFamiliar
             // 
-            this.btnVerSaldoFamiliar.Location = new System.Drawing.Point(140, 349);
+            this.btnVerSaldoFamiliar.Location = new System.Drawing.Point(140, 241);
             this.btnVerSaldoFamiliar.Name = "btnVerSaldoFamiliar";
             this.btnVerSaldoFamiliar.Size = new System.Drawing.Size(112, 23);
             this.btnVerSaldoFamiliar.TabIndex = 8;
@@ -127,11 +128,21 @@
             this.btnVerSaldoFamiliar.UseVisualStyleBackColor = true;
             this.btnVerSaldoFamiliar.Click += new System.EventHandler(this.btnVerSaldoFamiliar_Click);
             // 
+            // txtHistórico
+            // 
+            this.txtHistórico.Location = new System.Drawing.Point(495, 39);
+            this.txtHistórico.Multiline = true;
+            this.txtHistórico.Name = "txtHistórico";
+            this.txtHistórico.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtHistórico.Size = new System.Drawing.Size(178, 225);
+            this.txtHistórico.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(544, 450);
+            this.ClientSize = new System.Drawing.Size(697, 343);
+            this.Controls.Add(this.txtHistórico);
             this.Controls.Add(this.btnVerSaldoFamiliar);
             this.Controls.Add(this.lblSaldoFamiliar);
             this.Controls.Add(this.lblSaldo);
@@ -159,6 +170,7 @@
         private System.Windows.Forms.Label lblSaldo;
         private System.Windows.Forms.Label lblSaldoFamiliar;
         private System.Windows.Forms.Button btnVerSaldoFamiliar;
+        private System.Windows.Forms.TextBox txtHistórico;
     }
 }
 

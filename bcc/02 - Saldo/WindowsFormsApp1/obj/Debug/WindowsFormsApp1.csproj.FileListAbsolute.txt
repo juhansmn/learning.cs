@@ -8,3 +8,13 @@ c:\users\juan.vsuman\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Wi
 c:\users\juan.vsuman\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 c:\users\juan.vsuman\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 c:\users\juan.vsuman\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\!Ostok\senac\POO\learning.cs\bcc\02 - Saldo\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\!Ostok\senac\POO\learning.cs\bcc\02 - Saldo\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\!Ostok\senac\POO\learning.cs\bcc\02 - Saldo\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\!Ostok\senac\POO\learning.cs\bcc\02 - Saldo\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\!Ostok\senac\POO\learning.cs\bcc\02 - Saldo\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\!Ostok\senac\POO\learning.cs\bcc\02 - Saldo\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\!Ostok\senac\POO\learning.cs\bcc\02 - Saldo\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\!Ostok\senac\POO\learning.cs\bcc\02 - Saldo\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\!Ostok\senac\POO\learning.cs\bcc\02 - Saldo\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\!Ostok\senac\POO\learning.cs\bcc\02 - Saldo\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
