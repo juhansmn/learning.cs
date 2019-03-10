@@ -105,18 +105,18 @@
             this.lblSaldo.AutoSize = true;
             this.lblSaldo.Location = new System.Drawing.Point(268, 197);
             this.lblSaldo.Name = "lblSaldo";
-            this.lblSaldo.Size = new System.Drawing.Size(28, 13);
+            this.lblSaldo.Size = new System.Drawing.Size(45, 13);
             this.lblSaldo.TabIndex = 6;
-            this.lblSaldo.Text = "0,00";
+            this.lblSaldo.Text = "R$ 0,00";
             // 
             // lblSaldoFamiliar
             // 
             this.lblSaldoFamiliar.AutoSize = true;
             this.lblSaldoFamiliar.Location = new System.Drawing.Point(268, 246);
             this.lblSaldoFamiliar.Name = "lblSaldoFamiliar";
-            this.lblSaldoFamiliar.Size = new System.Drawing.Size(28, 13);
+            this.lblSaldoFamiliar.Size = new System.Drawing.Size(45, 13);
             this.lblSaldoFamiliar.TabIndex = 7;
-            this.lblSaldoFamiliar.Text = "0,00";
+            this.lblSaldoFamiliar.Text = "R$ 0,00";
             // 
             // btnVerSaldoFamiliar
             // 
