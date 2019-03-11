@@ -14,6 +14,7 @@ namespace WindowsFormsApp1
     {
         Conta homem;
         Conta mulher;
+
         public Form1()
         {
             InitializeComponent();
@@ -60,6 +61,10 @@ namespace WindowsFormsApp1
         private void btnVerSaldoFamiliar_Click(object sender, EventArgs e)
         {
             lblSaldoFamiliar.Text = "R$ " + (homem.VerSaldo() + mulher.VerSaldo()).ToString();
+        }
+
+        private void Form1_Load(object sender, EventArgs e) {
+
         }
     }
 }
