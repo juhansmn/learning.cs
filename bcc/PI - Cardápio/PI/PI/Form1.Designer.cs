@@ -28,43 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.lstItens = new System.Windows.Forms.ComboBox();
+            this.lstBebidas = new System.Windows.Forms.ListBox();
+            this.lstCarnes = new System.Windows.Forms.ComboBox();
             this.btnPedido = new System.Windows.Forms.Button();
             this.rdoFritas = new System.Windows.Forms.RadioButton();
             this.chkGorjeta = new System.Windows.Forms.CheckBox();
             this.rdoSalada = new System.Windows.Forms.RadioButton();
             this.rdoArrozFeijao = new System.Windows.Forms.RadioButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.picLanche = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picLanche)).BeginInit();
             this.SuspendLayout();
             // 
-            // listBox1
+            // lstBebidas
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
+            this.lstBebidas.FormattingEnabled = true;
+            this.lstBebidas.Items.AddRange(new object[] {
             "Refrigerante",
             "Suco Natural",
             "Vinho"});
-            this.listBox1.Location = new System.Drawing.Point(29, 51);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 95);
-            this.listBox1.TabIndex = 0;
+            this.lstBebidas.Location = new System.Drawing.Point(29, 51);
+            this.lstBebidas.Name = "lstBebidas";
+            this.lstBebidas.Size = new System.Drawing.Size(120, 95);
+            this.lstBebidas.TabIndex = 0;
+            this.lstBebidas.SelectedIndexChanged += new System.EventHandler(this.lstBebidas_SelectedIndexChanged);
             // 
-            // lstItens
+            // lstCarnes
             // 
-            this.lstItens.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.lstItens.FormattingEnabled = true;
-            this.lstItens.Items.AddRange(new object[] {
+            this.lstCarnes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.lstCarnes.FormattingEnabled = true;
+            this.lstCarnes.Items.AddRange(new object[] {
             "Picanha",
             "Cupim",
-            "Alcatra",
-            "Maminha",
-            "Coxão Duro"});
-            this.lstItens.Location = new System.Drawing.Point(28, 24);
-            this.lstItens.Name = "lstItens";
-            this.lstItens.Size = new System.Drawing.Size(121, 21);
-            this.lstItens.TabIndex = 2;
+            "Alcatra"});
+            this.lstCarnes.Location = new System.Drawing.Point(29, 24);
+            this.lstCarnes.Name = "lstCarnes";
+            this.lstCarnes.Size = new System.Drawing.Size(121, 21);
+            this.lstCarnes.TabIndex = 2;
+            this.lstCarnes.SelectedIndexChanged += new System.EventHandler(this.lstCarnes_SelectedIndexChanged);
             // 
             // btnPedido
             // 
@@ -97,6 +97,7 @@
             this.chkGorjeta.TabIndex = 6;
             this.chkGorjeta.Text = "Gorjeta? (Adicional)";
             this.chkGorjeta.UseVisualStyleBackColor = true;
+            this.chkGorjeta.CheckedChanged += new System.EventHandler(this.chkGorjeta_CheckedChanged);
             // 
             // rdoSalada
             // 
@@ -120,30 +121,30 @@
             this.rdoArrozFeijao.Text = "Arroz e Feijão";
             this.rdoArrozFeijao.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // picLanche
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(235, 24);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(170, 122);
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
+            this.picLanche.Location = new System.Drawing.Point(235, 24);
+            this.picLanche.Name = "picLanche";
+            this.picLanche.Size = new System.Drawing.Size(170, 122);
+            this.picLanche.TabIndex = 9;
+            this.picLanche.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(428, 292);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picLanche);
             this.Controls.Add(this.rdoArrozFeijao);
             this.Controls.Add(this.rdoSalada);
             this.Controls.Add(this.chkGorjeta);
             this.Controls.Add(this.rdoFritas);
             this.Controls.Add(this.btnPedido);
-            this.Controls.Add(this.lstItens);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.lstCarnes);
+            this.Controls.Add(this.lstBebidas);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLanche)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -151,14 +152,14 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ComboBox lstItens;
+        private System.Windows.Forms.ListBox lstBebidas;
+        private System.Windows.Forms.ComboBox lstCarnes;
         private System.Windows.Forms.Button btnPedido;
         private System.Windows.Forms.RadioButton rdoFritas;
         private System.Windows.Forms.CheckBox chkGorjeta;
         private System.Windows.Forms.RadioButton rdoSalada;
         private System.Windows.Forms.RadioButton rdoArrozFeijao;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picLanche;
     }
 }
 

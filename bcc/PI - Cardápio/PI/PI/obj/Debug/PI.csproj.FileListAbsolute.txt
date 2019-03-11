@@ -8,3 +8,14 @@ C:\Users\juan.vsuman\Desktop\PI\PI\PI\obj\Debug\PI.csproj.GenerateResource.cache
 C:\Users\juan.vsuman\Desktop\PI\PI\PI\obj\Debug\PI.csproj.CoreCompileInputs.cache
 C:\Users\juan.vsuman\Desktop\PI\PI\PI\obj\Debug\PI.exe
 C:\Users\juan.vsuman\Desktop\PI\PI\PI\obj\Debug\PI.pdb
+D:\!Ostok\senac\POO\learning.cs\bcc\PI - Cardápio\PI\PI\bin\Debug\PI.exe.config
+D:\!Ostok\senac\POO\learning.cs\bcc\PI - Cardápio\PI\PI\bin\Debug\PI.exe
+D:\!Ostok\senac\POO\learning.cs\bcc\PI - Cardápio\PI\PI\bin\Debug\PI.pdb
+D:\!Ostok\senac\POO\learning.cs\bcc\PI - Cardápio\PI\PI\obj\Debug\PI.csprojAssemblyReference.cache
+D:\!Ostok\senac\POO\learning.cs\bcc\PI - Cardápio\PI\PI\obj\Debug\PI.Form1.resources
+D:\!Ostok\senac\POO\learning.cs\bcc\PI - Cardápio\PI\PI\obj\Debug\PI.Properties.Resources.resources
+D:\!Ostok\senac\POO\learning.cs\bcc\PI - Cardápio\PI\PI\obj\Debug\PI.csproj.GenerateResource.cache
+D:\!Ostok\senac\POO\learning.cs\bcc\PI - Cardápio\PI\PI\obj\Debug\PI.csproj.CoreCompileInputs.cache
+D:\!Ostok\senac\POO\learning.cs\bcc\PI - Cardápio\PI\PI\obj\Debug\PI.exe
+D:\!Ostok\senac\POO\learning.cs\bcc\PI - Cardápio\PI\PI\obj\Debug\PI.pdb
+D:\!Ostok\senac\POO\learning.cs\bcc\PI - Cardápio\PI\PI\obj\Debug\PI.Form2.resources
