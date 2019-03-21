@@ -1,0 +1,69 @@
+C:\Users\thiago.rclaro\source\repos\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.exe.config
+C:\Users\thiago.rclaro\source\repos\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.exe
+C:\Users\thiago.rclaro\source\repos\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.pdb
+C:\Users\thiago.rclaro\source\repos\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csprojResolveAssemblyReference.cache
+C:\Users\thiago.rclaro\source\repos\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.Form1.resources
+C:\Users\thiago.rclaro\source\repos\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.Properties.Resources.resources
+C:\Users\thiago.rclaro\source\repos\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.GenerateResource.Cache
+C:\Users\thiago.rclaro\source\repos\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.CoreCompileInputs.cache
+C:\Users\thiago.rclaro\source\repos\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.exe
+C:\Users\thiago.rclaro\source\repos\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.pdb
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.exe.config
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.exe
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.pdb
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csprojResolveAssemblyReference.cache
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.Form1.resources
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.Properties.Resources.resources
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.GenerateResource.Cache
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.CoreCompileInputs.cache
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.exe
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.pdb
+C:\Users\lucas.brclaro\Downloads\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.exe.config
+C:\Users\lucas.brclaro\Downloads\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.exe
+C:\Users\lucas.brclaro\Downloads\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.pdb
+C:\Users\lucas.brclaro\Downloads\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csprojAssemblyReference.cache
+C:\Users\lucas.brclaro\Downloads\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.Properties.Resources.resources
+C:\Users\lucas.brclaro\Downloads\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.GenerateResource.cache
+C:\Users\lucas.brclaro\Downloads\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.CoreCompileInputs.cache
+C:\Users\lucas.brclaro\Downloads\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.exe
+C:\Users\lucas.brclaro\Downloads\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.pdb
+C:\Users\lucas.brclaro\Downloads\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.formCenarioDungeons.resources
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes2.0\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.exe.config
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes2.0\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.exe
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes2.0\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.pdb
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes2.0\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csprojResolveAssemblyReference.cache
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes2.0\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.formCenarioDungeons.resources
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes2.0\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.Properties.Resources.resources
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes2.0\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.GenerateResource.Cache
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes2.0\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.CoreCompileInputs.cache
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes2.0\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.exe
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes2.0\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.pdb
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes2.0\ElfosAnoes\ElfosAnoes\bin\Debug\Exercicio.dll
+C:\Users\thiago.rclaro\Dropbox\ElfosAnoes2.0\ElfosAnoes\ElfosAnoes\bin\Debug\Exercicio.pdb
+\\10.135.0.60\cursos\ÁREA 2 - ADMINISTRAÇÃO E TECNOLOGIA DA INFORMAÇÃO\TECNOLOGIA EM SISTEMAS PARA INTERNET\POO\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.exe.config
+\\10.135.0.60\cursos\ÁREA 2 - ADMINISTRAÇÃO E TECNOLOGIA DA INFORMAÇÃO\TECNOLOGIA EM SISTEMAS PARA INTERNET\POO\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.exe
+\\10.135.0.60\cursos\ÁREA 2 - ADMINISTRAÇÃO E TECNOLOGIA DA INFORMAÇÃO\TECNOLOGIA EM SISTEMAS PARA INTERNET\POO\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.pdb
+\\10.135.0.60\cursos\ÁREA 2 - ADMINISTRAÇÃO E TECNOLOGIA DA INFORMAÇÃO\TECNOLOGIA EM SISTEMAS PARA INTERNET\POO\ElfosAnoes\ElfosAnoes\bin\Debug\Exercicio.pdb
+\\10.135.0.60\cursos\ÁREA 2 - ADMINISTRAÇÃO E TECNOLOGIA DA INFORMAÇÃO\TECNOLOGIA EM SISTEMAS PARA INTERNET\POO\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csprojResolveAssemblyReference.cache
+\\10.135.0.60\cursos\ÁREA 2 - ADMINISTRAÇÃO E TECNOLOGIA DA INFORMAÇÃO\TECNOLOGIA EM SISTEMAS PARA INTERNET\POO\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.formCenarioDungeons.resources
+\\10.135.0.60\cursos\ÁREA 2 - ADMINISTRAÇÃO E TECNOLOGIA DA INFORMAÇÃO\TECNOLOGIA EM SISTEMAS PARA INTERNET\POO\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.Properties.Resources.resources
+\\10.135.0.60\cursos\ÁREA 2 - ADMINISTRAÇÃO E TECNOLOGIA DA INFORMAÇÃO\TECNOLOGIA EM SISTEMAS PARA INTERNET\POO\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.GenerateResource.Cache
+\\10.135.0.60\cursos\ÁREA 2 - ADMINISTRAÇÃO E TECNOLOGIA DA INFORMAÇÃO\TECNOLOGIA EM SISTEMAS PARA INTERNET\POO\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.CoreCompileInputs.cache
+\\10.135.0.60\cursos\ÁREA 2 - ADMINISTRAÇÃO E TECNOLOGIA DA INFORMAÇÃO\TECNOLOGIA EM SISTEMAS PARA INTERNET\POO\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.exe
+\\10.135.0.60\cursos\ÁREA 2 - ADMINISTRAÇÃO E TECNOLOGIA DA INFORMAÇÃO\TECNOLOGIA EM SISTEMAS PARA INTERNET\POO\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.pdb
+\\10.135.0.60\cursos\ÁREA 2 - ADMINISTRAÇÃO E TECNOLOGIA DA INFORMAÇÃO\TECNOLOGIA EM SISTEMAS PARA INTERNET\POO\ElfosAnoes\ElfosAnoes\bin\Debug\Exercicio.xml
+\\10.135.0.60\cursos\ÁREA 2 - ADMINISTRAÇÃO E TECNOLOGIA DA INFORMAÇÃO\TECNOLOGIA EM SISTEMAS PARA INTERNET\POO\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csprojAssemblyReference.cache
+\\10.135.0.60\cursos\ÁREA 2 - ADMINISTRAÇÃO E TECNOLOGIA DA INFORMAÇÃO\TECNOLOGIA EM SISTEMAS PARA INTERNET\POO\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.CopyComplete
+C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.exe.config
+C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.exe
+C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\bin\Debug\ElfosAnoes.pdb
+C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\bin\Debug\Exercicio.pdb
+C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\bin\Debug\Exercicio.xml
+C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csprojAssemblyReference.cache
+C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.formCenarioDungeons.resources
+C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.Properties.Resources.resources
+C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.GenerateResource.cache
+C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.CoreCompileInputs.cache
+C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.CopyComplete
+C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.exe
+C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.pdb

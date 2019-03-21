@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Exercicio</name>
+    </assembly>
+    <members>
+        <member name="P:ElfosAnoes.Personagem.TotalVida">
+            <summary>
+            Pontos de vida combinados de todos personagens.
+            </summary>
+        </member>
+        <member name="M:ElfosAnoes.Personagem.#ctor(System.String)">
+            <summary>
+            Cria um personagem com mana e vida pré-definidos em 100
+            </summary>
+            <param name="nome">Nome do personagem</param>
+        </member>
+        <member name="M:ElfosAnoes.Personagem.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Cria um personagem com mana e vida passados
+            </summary>
+            <param name="nome">Nome do personagem</param>
+            <param name="vida">Quantidade inicial de vida</param>
+            <param name="mana">Quantidade inicial de mana</param>
+        </member>
+        <member name="M:ElfosAnoes.Personagem.Lutar">
+            <summary>
+            Luta contra inimigos do cenário. Perde um valor randômico de vida entre 1 e 30. Ganha XP aleatório no mesmo intervalo.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ElfosAnoes.Personagem.Lutar(ElfosAnoes.Personagem)">
+            <summary>
+            Luta contra seu aliado. O oponente com mais XP vence. 
+            </summary>
+            <param name="oponente"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ElfosAnoes.Personagem.Curar">
+            <summary>
+            Cura pontos de vida, gastando todos os pontos de mana. Cada ponto de mana dá 1 ponto de vida.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ElfosAnoes.Personagem.Curar(System.Int32)">
+            <summary>
+            Cura um valor definido de vida, ao custo de mana.  Cada ponto de mana dá 1 ponto de vida.
+            </summary>
+            <param name="pontosMana">Quantidade de mana a ser gasta</param>
+            <returns></returns>
+        </member>
+        <member name="M:ElfosAnoes.Personagem.Curar(System.Int32,ElfosAnoes.Personagem)">
+            <summary>
+            Cura o aliado um valor definido de vida, ao custo de mana.  Cada ponto de mana dá 1 ponto de vida.
+            </summary>
+            <param name="pontosMana">Quantidade de mana a ser gasta</param>
+            <param name="personagem">Aliado a ser curado</param>
+            <returns></returns>
+        </member>
+        <member name="M:ElfosAnoes.Personagem.Meditar">
+            <summary>
+            O personagem recupera um valor aleatório de mana, entre 1 e 40.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ElfosAnoes.Personagem.Help">
+            <summary>
+            Um resumo do jogo.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
