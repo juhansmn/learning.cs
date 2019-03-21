@@ -67,3 +67,16 @@ C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.C
 C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.CopyComplete
 C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.exe
 C:\Users\juan.vsuman\Desktop\ElfosAnoes\ElfosAnoes\obj\Debug\ElfosAnoes.pdb
+D:\!Ostok\senac\POO\learning.cs\Revisao\ElfosAnoes\obj\Debug\ElfosAnoes.csprojAssemblyReference.cache
+D:\!Ostok\senac\POO\learning.cs\Revisao\ElfosAnoes\obj\Debug\ElfosAnoes.formCenarioDungeons.resources
+D:\!Ostok\senac\POO\learning.cs\Revisao\ElfosAnoes\obj\Debug\ElfosAnoes.Properties.Resources.resources
+D:\!Ostok\senac\POO\learning.cs\Revisao\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.GenerateResource.cache
+D:\!Ostok\senac\POO\learning.cs\Revisao\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.CoreCompileInputs.cache
+D:\!Ostok\senac\POO\learning.cs\Revisao\ElfosAnoes\obj\Debug\ElfosAnoes.exe
+D:\!Ostok\senac\POO\learning.cs\Revisao\ElfosAnoes\obj\Debug\ElfosAnoes.pdb
+D:\!Ostok\senac\POO\learning.cs\Revisao\ElfosAnoes\bin\Debug\ElfosAnoes.exe.config
+D:\!Ostok\senac\POO\learning.cs\Revisao\ElfosAnoes\bin\Debug\ElfosAnoes.exe
+D:\!Ostok\senac\POO\learning.cs\Revisao\ElfosAnoes\bin\Debug\ElfosAnoes.pdb
+D:\!Ostok\senac\POO\learning.cs\Revisao\ElfosAnoes\bin\Debug\Exercicio.pdb
+D:\!Ostok\senac\POO\learning.cs\Revisao\ElfosAnoes\bin\Debug\Exercicio.xml
+D:\!Ostok\senac\POO\learning.cs\Revisao\ElfosAnoes\obj\Debug\ElfosAnoes.csproj.CopyComplete

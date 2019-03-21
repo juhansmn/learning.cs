@@ -9,18 +9,23 @@ namespace ElfosAnoes
     class PersonagemTeste{
         Random aleatorio = new Random();
 
-        static int vidaTotal = 0;
+        public static int vidaTotal = 0;
         private string _nome;
         private int _vida;
         private int _mana;
-        private int _xp;
+        private int _xp = 0;
 
         public PersonagemTeste(string nome, int vida, int mana)
         {
             this._nome = nome;
             this._vida = vida;
             this._mana = mana;
-            this._xp = 0;
+
+            vidaTotal += vida;
+        }
+        public PersonagemTeste(string nome) {
+            this._vida = 100;
+            this._mana = 100;
 
             vidaTotal += vida;
         }
@@ -38,10 +43,6 @@ namespace ElfosAnoes
             get
             {
                 return this._vida;
-            }
-            set
-            {
-                this._vida = value;
             }
         }
 
@@ -64,59 +65,90 @@ namespace ElfosAnoes
         //Método Curar e Curar(amigo)
         //Gasta toda a Mana para curar o HP. Ele cura a mesma quantidade de Mana que tiver caso não passe nada.
 
-        public void Curar()
+        public string Curar()
         {
-            this._vida -= aleatorio.Next(1, 40);
+            int vidaRecuperada = aleatorio.Next(1, 40);
+            RecuperarVida(vidaRecuperada);
+            PerderMana(vidaRecuperada);
+
+            return vidaRecuperada.ToString();
         }
 
-        public void Curar(int manaGasta)
+        public string Curar(int vidaRecuperada)
         {
-            this._mana -= manaGasta;
-            this._vida += manaGasta;
+            PerderMana(vidaRecuperada);
+            RecuperarVida(vidaRecuperada);
 
-            vidaTotal += manaGasta;
-
+            return vidaRecuperada.ToString();
         }
 
-        public void Curar(int manaGasta, PersonagemTeste aliado)
+        public string Curar(int vidaRecuperada, PersonagemTeste aliado)
         {
-            this._mana -= manaGasta;
-            aliado.vida += manaGasta;
+            PerderMana(vidaRecuperada);
+            aliado.RecuperarVida(vidaRecuperada);
 
-            vidaTotal += manaGasta;
-
+            return vidaRecuperada.ToString();
         }
 
-        public void Meditar()
+        public string Meditar()
         {
             int manaRecuperada = aleatorio.Next(1, 40);
-            this._mana += manaRecuperada;
+            RecuperarMana(manaRecuperada);
 
+            return manaRecuperada.ToString();
         }
 
         //Método Lutar(amigo) e Lutar()
         //Lutar retorna XP. Caso lutando com um amigo, ele retorna a quantidade perdida de HP do perdedor como XP.
-        public void Lutar()
+        public string Lutar()
         {
             int ataques = aleatorio.Next(1, 40);
-            this._vida -= ataques;
-            this._xp += ataques;
+            PerderVida(ataques);
+            DistribuirExp(ataques);
 
-            vidaTotal -= ataques;
-
+            return ataques.ToString();
         }
 
-        public void Lutar(PersonagemTeste aliado)
+        public string Lutar(PersonagemTeste aliado)
         {
-            int ataques = 0;
+            int ataques;
             if (aliado.xp > this._xp)
             {
-                ataques = aleatorio.Next(this._xp / 2, this._xp);
-                this._vida -= ataques;
-
+                ataques = aleatorio.Next(this.vida / 2, this.vida);
+                aliado.DistribuirExp(ataques);
+                PerderVida(ataques);
             }
-            ataques = aleatorio.Next(aliado.xp / 2, aliado.xp);
-            vidaTotal -= ataques;
+            else {
+                ataques = aleatorio.Next(aliado.vida / 2, aliado.vida);
+                aliado.PerderVida(ataques);
+                DistribuirExp(ataques);
+            }
+
+            return ataques.ToString();
+        }
+
+        public void RecuperarMana(int stamina) {
+            this._mana += stamina;
+        }
+
+        public void PerderMana(int stamina) {
+            this._mana -= stamina;
+        }
+
+        public void RecuperarVida(int cura) {
+            this._vida += cura;
+
+            vidaTotal += cura;
+        }
+
+        public void PerderVida(int dano) {
+            this._vida -= dano;
+
+            vidaTotal -= dano;
+        }
+
+        public void DistribuirExp(int experiencia) {
+            this._xp += experiencia;
         }
 
         static public string Help(){

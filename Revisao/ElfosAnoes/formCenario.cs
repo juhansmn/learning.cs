@@ -12,8 +12,8 @@ namespace ElfosAnoes
 {
     public partial class formCenarioDungeons : Form
     {
-        Personagem elfo;
-        Personagem anao;
+        PersonagemTeste elfo;
+        PersonagemTeste anao;
 
         #region Construtor
         public formCenarioDungeons()
@@ -32,11 +32,11 @@ namespace ElfosAnoes
             if (!ValidarCriacao())
                 return;
 
-            Personagem p;
+            PersonagemTeste p;
             if (txtVida.Text == "") //Testa qual dos construtores usar
-                p = new Personagem(txtNome.Text);
+                p = new PersonagemTeste(txtNome.Text);
             else
-                p = new Personagem(txtNome.Text, Convert.ToInt32(txtVida.Text), Convert.ToInt32(txtMana.Text));
+                p = new PersonagemTeste(txtNome.Text, Convert.ToInt32(txtVida.Text), Convert.ToInt32(txtMana.Text));
 
             if (rdoElfo.Checked) //Testa se estou criando um elfo
                 elfo = p;
@@ -49,7 +49,7 @@ namespace ElfosAnoes
         
         private void btnLutar_Click(object sender, EventArgs e)
         {
-            Personagem personagem = checarPersonagem(true);
+            PersonagemTeste personagem = checarPersonagem(true);
             if (personagem != null)
                 lblLog.Text = personagem.Lutar() + lblLog.Text;
                 
@@ -85,7 +85,7 @@ namespace ElfosAnoes
             if (txtManaGasta.Text != "")
                 CuraDefinida = true;
 
-            Personagem p = checarPersonagem(true);
+            PersonagemTeste p = checarPersonagem(true);
             if (p != null)
             { 
                 if (CuraDefinida)
@@ -116,7 +116,7 @@ namespace ElfosAnoes
 
         private void btnMeditar_Click(object sender, EventArgs e)
         {
-            Personagem p = checarPersonagem(true);
+            PersonagemTeste p = checarPersonagem(true);
             if (p != null)
                 lblLog.Text = p.Meditar() + lblLog.Text; 
             AtualizarStatus();
@@ -124,12 +124,12 @@ namespace ElfosAnoes
         
         private void btnHelp_Click(object sender, EventArgs e)
         {
-            lblLog.Text = Personagem.Help() + lblLog.Text;
+            lblLog.Text = PersonagemTeste.Help() + lblLog.Text;
         }
 
         private void btnGrp_Click(object sender, EventArgs e)
         {
-            lblLog.Text = "O grupo está com " + Personagem.TotalVida + " pontos de Vida\r\n" + lblLog.Text;
+            lblLog.Text = "O grupo está com " + PersonagemTeste.vidaTotal + " pontos de Vida\r\n" + lblLog.Text;
         }
         #endregion
 
@@ -153,7 +153,7 @@ namespace ElfosAnoes
         }
 
         //verifica qual personagem está selecionado e retorna o objeto correspondente
-        private Personagem checarPersonagem(bool GerarLog)
+        private PersonagemTeste checarPersonagem(bool GerarLog)
         {
             if (rdoElfo.Checked)
             {
@@ -181,12 +181,12 @@ namespace ElfosAnoes
         //Atualiza Nome, Vida e Mana de um dos personagens
         private void AtualizarStatus()
         {
-            Personagem p = checarPersonagem(false);
+            PersonagemTeste p = checarPersonagem(false);
             if (p != null)
             {
-                txtNome.Text = p.Nome;
-                txtMana.Text = p.Mana.ToString();
-                txtVida.Text = p.Vida.ToString();
+                txtNome.Text = p.nome;
+                txtMana.Text = p.mana.ToString();
+                txtVida.Text = p.vida.ToString();
                 txtXp.Text = p.xp.ToString();
             }
             else

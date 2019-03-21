@@ -1,0 +1,20 @@
+C:\Users\juan.vsuman\Desktop\ElfosAnões\ElfosAnões\bin\Debug\ElfosAnões.exe.config
+C:\Users\juan.vsuman\Desktop\ElfosAnões\ElfosAnões\bin\Debug\ElfosAnões.exe
+C:\Users\juan.vsuman\Desktop\ElfosAnões\ElfosAnões\bin\Debug\ElfosAnões.pdb
+C:\Users\juan.vsuman\Desktop\ElfosAnões\ElfosAnões\obj\Debug\ElfosAnões.csprojAssemblyReference.cache
+C:\Users\juan.vsuman\Desktop\ElfosAnões\ElfosAnões\obj\Debug\ElfosAnões.Form1.resources
+C:\Users\juan.vsuman\Desktop\ElfosAnões\ElfosAnões\obj\Debug\ElfosAnões.Properties.Resources.resources
+C:\Users\juan.vsuman\Desktop\ElfosAnões\ElfosAnões\obj\Debug\ElfosAnões.csproj.GenerateResource.cache
+C:\Users\juan.vsuman\Desktop\ElfosAnões\ElfosAnões\obj\Debug\ElfosAnões.csproj.CoreCompileInputs.cache
+C:\Users\juan.vsuman\Desktop\ElfosAnões\ElfosAnões\obj\Debug\ElfosAnões.exe
+C:\Users\juan.vsuman\Desktop\ElfosAnões\ElfosAnões\obj\Debug\ElfosAnões.pdb
+D:\!Ostok\senac\POO\learning.cs\bcc\Elfos e Anões\ElfosAnões\obj\Debug\ElfosAnões.csprojAssemblyReference.cache
+D:\!Ostok\senac\POO\learning.cs\bcc\Elfos e Anões\ElfosAnões\obj\Debug\ElfosAnões.Form1.resources
+D:\!Ostok\senac\POO\learning.cs\bcc\Elfos e Anões\ElfosAnões\obj\Debug\ElfosAnões.Properties.Resources.resources
+D:\!Ostok\senac\POO\learning.cs\bcc\Elfos e Anões\ElfosAnões\obj\Debug\ElfosAnões.csproj.GenerateResource.cache
+D:\!Ostok\senac\POO\learning.cs\bcc\Elfos e Anões\ElfosAnões\obj\Debug\ElfosAnões.csproj.CoreCompileInputs.cache
+D:\!Ostok\senac\POO\learning.cs\bcc\Elfos e Anões\ElfosAnões\obj\Debug\ElfosAnões.exe
+D:\!Ostok\senac\POO\learning.cs\bcc\Elfos e Anões\ElfosAnões\obj\Debug\ElfosAnões.pdb
+D:\!Ostok\senac\POO\learning.cs\bcc\Elfos e Anões\ElfosAnões\bin\Debug\ElfosAnões.exe.config
+D:\!Ostok\senac\POO\learning.cs\bcc\Elfos e Anões\ElfosAnões\bin\Debug\ElfosAnões.exe
+D:\!Ostok\senac\POO\learning.cs\bcc\Elfos e Anões\ElfosAnões\bin\Debug\ElfosAnões.pdb
