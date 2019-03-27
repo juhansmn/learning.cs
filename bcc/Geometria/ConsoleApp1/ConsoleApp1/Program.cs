@@ -1,8 +1,6 @@
 ﻿using System;
 
 class Geometria {
-    private string tipo;
-
     public int LadoA { get; set; }
     public int LadoB { get; set; }
     public int LadoC { get; set; }
@@ -63,7 +61,7 @@ class Geometria {
     }
 
     public static void Main() {
-        Geometria g = new Geometria(20, 20, 20);
+        Geometria g = new Geometria(10, 10, 10);
         Console.WriteLine(g.Area().ToString());
         Console.WriteLine(g.Perimetro().ToString());
         Console.ReadKey();
