@@ -9,7 +9,7 @@ class Geometria {
     public int LadoD { get; set; }
 
     /*Retângulo
-    Triângulo Escaleno
+    Triângulo
     Quadrado*/
 
     public Geometria(int ladoA, int ladoB, int ladoC, int ladoD) {
