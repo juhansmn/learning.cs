@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 using System.ComponentModel;
 
 namespace Canil {
-    class Hound {
+    class Cachorro {
         [DisplayName("Nome")]
-        public string nome { get; set; }
+        public string nome{ get; set; }
 
         [DisplayName("Data de Nascimento")]
-        public string dataNascimento { get; set; }
+        public string dataNascimento{ get; set; }
 
-        public bool pedigree = false;
+        [DisplayName("Pedigree")]
+        public bool pedigree{ get; set; }
 
     }
 }

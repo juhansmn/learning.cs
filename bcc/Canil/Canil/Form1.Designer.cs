@@ -23,31 +23,28 @@
         /// o conteúdo deste método com o editor de código.
         /// </summary>
         private void InitializeComponent() {
-            this.btnNascer = new System.Windows.Forms.Button();
+            this.btnAdicionar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnRemover = new System.Windows.Forms.Button();
-            this.btnLimpar = new System.Windows.Forms.Button();
             this.dgvCanil = new System.Windows.Forms.DataGridView();
-            this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DataNascimento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Pedigree = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.chkPedigree = new System.Windows.Forms.CheckBox();
             this.lblNome = new System.Windows.Forms.Label();
             this.lblDataNascimento = new System.Windows.Forms.Label();
             this.dtpNascimento = new System.Windows.Forms.DateTimePicker();
+            this.btnLimpar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCanil)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnNascer
+            // btnAdicionar
             // 
-            this.btnNascer.Location = new System.Drawing.Point(65, 210);
-            this.btnNascer.Name = "btnNascer";
-            this.btnNascer.Size = new System.Drawing.Size(75, 23);
-            this.btnNascer.TabIndex = 0;
-            this.btnNascer.Text = "Nascer";
-            this.btnNascer.UseVisualStyleBackColor = true;
-            this.btnNascer.Click += new System.EventHandler(this.btnNascer_Click);
+            this.btnAdicionar.Location = new System.Drawing.Point(65, 181);
+            this.btnAdicionar.Name = "btnAdicionar";
+            this.btnAdicionar.Size = new System.Drawing.Size(75, 23);
+            this.btnAdicionar.TabIndex = 0;
+            this.btnAdicionar.Text = "Adicionar";
+            this.btnAdicionar.UseVisualStyleBackColor = true;
+            this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
             // btnEditar
             // 
@@ -69,52 +66,20 @@
             this.btnRemover.UseVisualStyleBackColor = true;
             this.btnRemover.Click += new System.EventHandler(this.btnRemover_Click);
             // 
-            // btnLimpar
-            // 
-            this.btnLimpar.Location = new System.Drawing.Point(146, 210);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(75, 23);
-            this.btnLimpar.TabIndex = 3;
-            this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
-            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
-            // 
             // dgvCanil
             // 
+            this.dgvCanil.AllowUserToAddRows = false;
+            this.dgvCanil.AllowUserToDeleteRows = false;
+            this.dgvCanil.AllowUserToResizeColumns = false;
+            this.dgvCanil.AllowUserToResizeRows = false;
             this.dgvCanil.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCanil.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Nome,
-            this.DataNascimento,
-            this.Pedigree});
             this.dgvCanil.Location = new System.Drawing.Point(327, 23);
             this.dgvCanil.Name = "dgvCanil";
             this.dgvCanil.ReadOnly = true;
-            this.dgvCanil.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.dgvCanil.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dgvCanil.Size = new System.Drawing.Size(404, 181);
             this.dgvCanil.TabIndex = 4;
             this.dgvCanil.DoubleClick += new System.EventHandler(this.btnEditar_Click);
-            // 
-            // Nome
-            // 
-            this.Nome.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Nome.HeaderText = "Nome";
-            this.Nome.Name = "Nome";
-            this.Nome.ReadOnly = true;
-            this.Nome.Width = 60;
-            // 
-            // DataNascimento
-            // 
-            this.DataNascimento.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.DataNascimento.HeaderText = "Data de Nascimento";
-            this.DataNascimento.Name = "DataNascimento";
-            this.DataNascimento.ReadOnly = true;
-            this.DataNascimento.Width = 118;
-            // 
-            // Pedigree
-            // 
-            this.Pedigree.HeaderText = "Pedigree";
-            this.Pedigree.Name = "Pedigree";
-            this.Pedigree.ReadOnly = true;
             // 
             // txtNome
             // 
@@ -158,21 +123,31 @@
             this.dtpNascimento.Size = new System.Drawing.Size(210, 20);
             this.dtpNascimento.TabIndex = 10;
             // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Location = new System.Drawing.Point(65, 210);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpar.TabIndex = 11;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(776, 279);
+            this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.dtpNascimento);
             this.Controls.Add(this.lblDataNascimento);
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.chkPedigree);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.dgvCanil);
-            this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnRemover);
             this.Controls.Add(this.btnEditar);
-            this.Controls.Add(this.btnNascer);
+            this.Controls.Add(this.btnAdicionar);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dgvCanil)).EndInit();
@@ -183,19 +158,16 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnNascer;
+        private System.Windows.Forms.Button btnAdicionar;
         private System.Windows.Forms.Button btnEditar;
         private System.Windows.Forms.Button btnRemover;
-        private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.DataGridView dgvCanil;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.CheckBox chkPedigree;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Label lblDataNascimento;
         private System.Windows.Forms.DateTimePicker dtpNascimento;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nome;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DataNascimento;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Pedigree;
+        private System.Windows.Forms.Button btnLimpar;
     }
 }
 

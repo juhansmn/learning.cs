@@ -10,57 +10,84 @@ using System.Windows.Forms;
 
 namespace Canil {
     public partial class Form1 : Form {
+        List<Cachorro> caes;
+        bool alterar;
+
         public Form1() {
             InitializeComponent();
+            caes = new List<Cachorro>();
+            atualizarDataGridView();
         }
 
-        //Adicionar filhote à lista.
-        private void btnNascer_Click(object sender, EventArgs e) {
-            Hound cao = new Hound();
-
-            cao.nome = txtNome.Text;
-            cao.dataNascimento = dtpNascimento.Value.ToShortDateString();
-
-            if (chkPedigree.Checked)
-                cao.pedigree = true;
-
-            dgvCanil.Rows.Add(cao.nome, cao.dataNascimento, cao.pedigree.ToString());
+        //Atualiza o DataSource do DataGridView.
+        private void atualizarDataGridView() {
+            var source = new BindingSource();
+            source.DataSource = caes;
+            dgvCanil.DataSource = source;
         }
 
-        //Remover da lista.
-        private void btnRemover_Click(object sender, EventArgs e) {
-            foreach (DataGridViewRow item in dgvCanil.SelectedRows){
-                if (!dgvCanil.CurrentRow.IsNewRow)
-                    dgvCanil.Rows.RemoveAt(item.Index);
+        //Adiciona cão ao DataGridView.
+        private void btnAdicionar_Click(object sender, EventArgs e) {
+            if (alterar == false) {
+                Cachorro cao = new Cachorro();
+
+                cao.nome = txtNome.Text;
+                cao.dataNascimento = dtpNascimento.Value.ToShortDateString();
+
+                if (chkPedigree.Checked)
+                    cao.pedigree = true;
+
                 else
-                    MessageBox.Show("ERRO: A posição está vazia.");
+                    cao.pedigree = false;
+
+                caes.Add(cao);
             }
+            //Estado de alteração de dados. 
+            else {
+                int i = Convert.ToInt32(dgvCanil.SelectedRows[0].Index);
+
+                caes[i].nome = txtNome.Text;
+                caes[i].dataNascimento = dtpNascimento.Value.ToShortDateString();
+
+                if (chkPedigree.Checked)
+                    caes[i].pedigree = true;
+
+                else
+                    caes[i].pedigree = false;
+
+                alterar = false;
+            }
+
+            btnAdicionar.Text = "Adicionar";
+            atualizarDataGridView();
         }
 
-        //Limpar lista (FAZER).
         private void btnLimpar_Click(object sender, EventArgs e) {
-        }
+            //Se não apertar o botão Editar, ele limpa a DataGridView.
+            if (alterar != true)
+                dgvCanil.Rows.Clear();
+            //Após apertar o botão Editar, ele desfaz o estado de edição.
+            else {
+                alterar = false;
 
-        //Editar informações da lista. O texto do botão nascer deve mudar para "alterar" (FAZER). Se clicar duas vezes, também deve editar.
-        private void btnEditar_Click(object sender, EventArgs e) {
-            if (dgvCanil.CurrentRow.IsNewRow) {
-                MessageBox.Show("ERRO: A posição está vazia.");
-                return;
+                btnAdicionar.Text = "Adicionar";
             }
-
-            DataGridViewRow row = new DataGridViewRow();
-
-            row = dgvCanil.Rows[dgvCanil.SelectedRows[0].Index];
-
-            row.Cells[0].Value = txtNome.Text;
-            row.Cells[1].Value = dtpNascimento.Value.ToShortDateString();
-
-            if (chkPedigree.Checked)
-                row.Cells[2].Value = "True";
-
-            else
-                row.Cells[2].Value = "False";
-        
         }
+
+        //Edita informações digitadas. O botão Nascer "troca de estado" para o botão Alterar.
+        private void btnEditar_Click(object sender, EventArgs e) {
+            alterar = true;
+
+            btnAdicionar.Text = "Alterar";
+        }
+
+        //Remove informações do DataGridView.
+        private void btnRemover_Click(object sender, EventArgs e) {
+            foreach (DataGridViewRow item in dgvCanil.SelectedRows) {
+                dgvCanil.Rows.RemoveAt(item.Index);
+            }
+        }
+
+
     }
 }
