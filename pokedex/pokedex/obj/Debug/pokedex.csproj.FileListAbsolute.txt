@@ -1,0 +1,12 @@
+C:\Users\juan.vsuman\Desktop\pokedex\pokedex\bin\Debug\pokedex.exe.config
+C:\Users\juan.vsuman\Desktop\pokedex\pokedex\bin\Debug\pokedex.exe
+C:\Users\juan.vsuman\Desktop\pokedex\pokedex\bin\Debug\pokedex.pdb
+C:\Users\juan.vsuman\Desktop\pokedex\pokedex\bin\Debug\pokebase.dll
+C:\Users\juan.vsuman\Desktop\pokedex\pokedex\obj\Debug\pokedex.csprojAssemblyReference.cache
+C:\Users\juan.vsuman\Desktop\pokedex\pokedex\obj\Debug\pokedex.Form1.resources
+C:\Users\juan.vsuman\Desktop\pokedex\pokedex\obj\Debug\pokedex.Properties.Resources.resources
+C:\Users\juan.vsuman\Desktop\pokedex\pokedex\obj\Debug\pokedex.csproj.GenerateResource.cache
+C:\Users\juan.vsuman\Desktop\pokedex\pokedex\obj\Debug\pokedex.csproj.CoreCompileInputs.cache
+C:\Users\juan.vsuman\Desktop\pokedex\pokedex\obj\Debug\pokedex.csproj.CopyComplete
+C:\Users\juan.vsuman\Desktop\pokedex\pokedex\obj\Debug\pokedex.exe
+C:\Users\juan.vsuman\Desktop\pokedex\pokedex\obj\Debug\pokedex.pdb
