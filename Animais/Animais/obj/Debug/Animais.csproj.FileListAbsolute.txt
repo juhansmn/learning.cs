@@ -1,0 +1,10 @@
+C:\Users\juan.vsuman\Desktop\Animais\Animais\bin\Debug\Animais.exe.config
+C:\Users\juan.vsuman\Desktop\Animais\Animais\bin\Debug\Animais.exe
+C:\Users\juan.vsuman\Desktop\Animais\Animais\bin\Debug\Animais.pdb
+C:\Users\juan.vsuman\Desktop\Animais\Animais\obj\Debug\Animais.csprojAssemblyReference.cache
+C:\Users\juan.vsuman\Desktop\Animais\Animais\obj\Debug\Animais.Form1.resources
+C:\Users\juan.vsuman\Desktop\Animais\Animais\obj\Debug\Animais.Properties.Resources.resources
+C:\Users\juan.vsuman\Desktop\Animais\Animais\obj\Debug\Animais.csproj.GenerateResource.cache
+C:\Users\juan.vsuman\Desktop\Animais\Animais\obj\Debug\Animais.csproj.CoreCompileInputs.cache
+C:\Users\juan.vsuman\Desktop\Animais\Animais\obj\Debug\Animais.exe
+C:\Users\juan.vsuman\Desktop\Animais\Animais\obj\Debug\Animais.pdb
